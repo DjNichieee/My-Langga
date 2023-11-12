@@ -1,2 +1,2 @@
 # My-Langga
-FOR YOUUU &lt;3
+I spent a while making this. I hope you like it!&lt;3
