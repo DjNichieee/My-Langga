@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <a href="flower.html"><strong>Dear Langga</strong></a>
+                        <p>I want to sincerely apologize for what I have done. I realize my mistake, and I am truly sorry for any hurt or pain I may have caused you. Please take a moment to read my heartfelt apology.</p>
+                        <p>I love you so much, langga :> </p>
+                        <p>Sincerely,<br>Nichieee :&gt; </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        const flowerButton = document.getElementById('flowerButton');
+
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+
+        flowerButton.addEventListener('click', () => {
+            window.location.href = "flower.html";
+        });
+    </script>
+</body>
+</html>
